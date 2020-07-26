@@ -16,6 +16,8 @@ def consolidate_cart(cart)
     else
       hash[:count] = 1
       new_cart << hash
+    end
+  end
       
       
       new_cart
