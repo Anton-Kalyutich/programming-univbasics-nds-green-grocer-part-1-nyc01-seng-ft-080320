@@ -18,9 +18,6 @@ def consolidate_cart(cart)
       new_cart << hash
     end
   end
-      
-      
-      new_cart
     
   new_cart
 end
