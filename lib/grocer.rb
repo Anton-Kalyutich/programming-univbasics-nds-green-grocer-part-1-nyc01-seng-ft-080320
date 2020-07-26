@@ -12,7 +12,7 @@ def consolidate_cart(cart)
   cart.each do |hash|
     new_hash = find_item_by_name_in_collection(hash[:item], new_cart)
     if new_hash
-      
+      new_hash[:count] += 1
       
     else
       hash[:count] = 1
